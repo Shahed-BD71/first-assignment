@@ -1,0 +1,145 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+
+}
+h2 {
+    font-size: 40px;
+}
+
+
+ul { 
+    margin: 0 10%; 
+    padding: 10px 0px 10px 100px; 
+    display: flex; 
+} 
+
+ul li { 
+    list-style: none; 
+    padding: 10px 20px; 
+
+} 
+
+ul li a { 
+    text-decoration: none; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: black; 
+    position: relative; 
+} 
+
+.section-one{
+margin-top: 5%;
+}
+.post-block{
+    margin-top: 10%;
+}
+
+.leatest-work h2{
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+.highlight {
+    color: lightcoral;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%;
+    
+}
+.half-width img {
+    width: 100%;
+    position: relative;
+}
+.half-width h1 {
+    margin: 0;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.one-third {
+    width: 40%;
+    float: left;
+    padding: 2%;
+    margin-left: 3%;
+    box-sizing: border-box;
+}
+.one-third img{
+width: 100%;
+position: center;
+}
+.single-work{
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+    height: 60%;
+    width: 25%;
+    background-color: white;
+    font-size: small;
+    font-weight: 200;
+}
+.leatest-work {
+    background-color: whitesmoke;
+    height: 350px;
+    width: 100%;
+    padding: 20px 0px, 20px, 0px;
+
+}
+.all-work {
+    margin-left: 12%;
+    position: relative;
+}
+.backround-image{
+    background-image: url(shapes/work-inquiry.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px, 200px;
+    height: 200px;
+    margin-top: 100px;
+   
+}
+.in-quiry h2{
+    font-size: 40px;
+    color: white;
+    padding: 80px;
+    margin-left: 270px;
+}
+
+.lets-chat {
+    position: relative;
+    bottom: 70px;
+    left: 450px;
+   
+}
+.footer {
+    text-align: center;
+    margin: 0;
+    margin-top: 200px;
+}
+.footer h3 {
+    color: gray;
+    margin: px;
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin-bottom: 2%;
+}
